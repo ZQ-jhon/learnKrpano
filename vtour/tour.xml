@@ -76,7 +76,7 @@
 	
 	<scene name="scene_01" title="01" onstart="" havevrimage="true" thumburl="panos/01.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-317.089" vlookat="2.534" fovtype="MFOV" fov="140.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/01.tiles/preview.jpg" />
 
@@ -89,12 +89,13 @@
 		<image if="webvr.isenabled">
 			<cube url="panos/01.tiles/vr/pano_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-3.385" atv="-1.693" linkedscene="scene_02" />
 
 	</scene>
 
 	<scene name="scene_02" title="02" onstart="" havevrimage="true" thumburl="panos/02.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.000" vlookat="0.000" fovtype="MFOV" fov="122.468" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/02.tiles/preview.jpg" />
 
@@ -107,12 +108,13 @@
 		<image if="webvr.isenabled">
 			<cube url="panos/02.tiles/vr/pano_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.413" atv="-21.164" linkedscene="scene_03" />
 
 	</scene>
 
 	<scene name="scene_03" title="03" onstart="" havevrimage="true" thumburl="panos/03.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-0.001" vlookat="0.000" fovtype="MFOV" fov="122.468" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/03.tiles/preview.jpg" />
 
@@ -125,12 +127,13 @@
 		<image if="webvr.isenabled">
 			<cube url="panos/03.tiles/vr/pano_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-6.448" atv="-16.881" linkedscene="scene_04" />
 
 	</scene>
 
 	<scene name="scene_04" title="04" onstart="" havevrimage="true" thumburl="panos/04.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-191.411" vlookat="-8.683" fovtype="MFOV" fov="140.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/04.tiles/preview.jpg" />
 
@@ -143,6 +146,7 @@
 		<image if="webvr.isenabled">
 			<cube url="panos/04.tiles/vr/pano_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="166.347" atv="-20.435" linkedscene="scene_01" />
 
 	</scene>
 
